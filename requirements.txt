@@ -1,5 +1,4 @@
-# Se vazio, o Dockerfile instalará jupyterlab automaticamente.
+notebook
 numpy
 pandas
 matplotlib
-jupyterlab
