@@ -1,4 +1,0 @@
-vim
-nano
-git
-curl
