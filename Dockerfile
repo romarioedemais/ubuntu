@@ -7,9 +7,9 @@ ENV TZ=Etc/UTC
 # Atualizar e instalar dependências básicas, Python, pip e nodejs (para jupyterlab extensions se quiser)
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-      ca-certificates curl wget git build-essential tzdata \
-      python3 python3-venv python3-pip python3-distutils \
-      nodejs npm && \
+    ca-certificates curl wget git build-essential tzdata \
+    python3 python3-venv python3-pip python3.12-distutils \
+    nodejs npm && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Criar ambiente Python isolado (opcional)
