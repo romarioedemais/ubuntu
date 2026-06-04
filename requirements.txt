@@ -1,0 +1,5 @@
+# Se vazio, o Dockerfile instalará jupyterlab automaticamente.
+numpy
+pandas
+matplotlib
+jupyterlab
