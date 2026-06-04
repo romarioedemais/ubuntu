@@ -8,7 +8,7 @@ ENV TZ=Etc/UTC
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     ca-certificates curl wget git build-essential tzdata \
-    python3 python3-venv python3-pip python3.12-distutils \
+    python3 python3-venv python3-pip python3-setuptools \
     nodejs npm && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
